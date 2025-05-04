@@ -1,9 +1,9 @@
 package com.example.demo.persistence.repository;
 
-import com.example.demo.persistence.entity.UserEntity;
+import com.example.demo.persistence.entity.PersonaEntity;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface IUserRepository extends CrudRepository<UserEntity, Long> {
+public interface IPersonaRepository extends CrudRepository<PersonaEntity, Long> {
 }
